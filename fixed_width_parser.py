@@ -49,7 +49,7 @@ def write_csv(parsed_data, csv_file, spec):
 if __name__ == "__main__":
     spec_file = 'spec.txt'
     fixed_width_file = 'data.txt'
-    csv_file = 'output/output.csv'
+    csv_file = 'output.csv'
     
     spec = read_spec(spec_file)
     parsed_data = parse_fixed_width_file(fixed_width_file, spec)
