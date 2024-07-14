@@ -28,5 +28,5 @@ This project parses a fixed-width file into a CSV file based on a specified form
 2. Run Docker Image:
    > docker run image-name
 3. Mount generated output.csv file
-   > docker run -v ${PWD}/output:/app/output image-name
+   > docker run -v ${PWD}:/app -w /app image-name
 
