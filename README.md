@@ -13,10 +13,11 @@ This project parses a fixed-width file into a CSV file based on a specified form
 
 ### Run with Python Job Local
 
-1. Ensure you have Python 3 installed.
-2. Set Python path using 
+1. Ensure you have Python3 installed.
+2. Set Python path by using: 
+  ```sh
   $env:PATH += ";C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python<version>\"
-2. Run the script:
+3. Run the script:
    ```sh
    python fixed_width_parser.py
 
